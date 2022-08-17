@@ -15,8 +15,8 @@ public enum RedisPrefix {
     LIKED_COUNT("likedcount:"), // + tweetId, contains the count of liked users for a tweet
     FANS("fans:"), // + userId, contains all userIds of fans for a user, limited by FANS_MAX_COUNT
     FOLLOWING("following:"), // + userId, contains all userIds of following for a user
-    MORE_TWEET_ID_LIST("more:tweets"), // there's more tweets in MYSQL that are not in Redis; never expire
-    MORE_INBOX_ID_LIST("more:inbox"), // there's more tweets in MYSQL that are not in Redis; never expire
+    MORE_TWEET_ID_LIST_IN_DB("more:tweets"), // there's more tweets in MYSQL database that are not in Redis; never expire
+    MORE_INBOX_ID_LIST_IN_DB("more:inbox"), // there's more tweets in MYSQL that are not in Redis; never expire
 
     // Sorted Set
 
