@@ -1,8 +1,8 @@
 package com.ziyuan.enums;
 
 public enum YesOrNo {
-    NO(0),
-    YES(1);
+    NO(1),
+    YES(2);
 
     public final Integer value;
 
