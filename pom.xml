@@ -11,6 +11,9 @@
     <modules>
         <module>common/tweets-cloud-common</module>
         <module>platform/registry-center</module>
+        <module>domain/snowflake/tweets-snowflake-api</module>
+        <module>domain/snowflake/tweets-snowflake-service</module>
+        <module>domain/snowflake/tweets-snowflake-web</module>
     </modules>
 
     <properties>
@@ -82,7 +85,6 @@
 
     <build>
         <plugins>
-            <!-- maven plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
