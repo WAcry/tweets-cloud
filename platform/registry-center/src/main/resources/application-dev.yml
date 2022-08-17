@@ -1,0 +1,6 @@
+server:
+  port: 20000
+
+eureka:
+  instance:
+    hostname: localhost
