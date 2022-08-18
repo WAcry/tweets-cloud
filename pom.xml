@@ -14,6 +14,11 @@
         <module>domain/snowflake/tweets-snowflake-api</module>
         <module>domain/snowflake/tweets-snowflake-service</module>
         <module>domain/snowflake/tweets-snowflake-web</module>
+        <module>domain/user/tweets-user-api</module>
+        <module>domain/user/tweets-user-mapper</module>
+        <module>domain/user/tweets-user-pojo</module>
+        <module>domain/user/tweets-user-service</module>
+        <module>domain/user/tweets-user-web</module>
     </modules>
 
     <properties>
